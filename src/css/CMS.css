@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cadastro{
+    background-color: rgb(194, 194, 194);
+    width: 30vw;
+    height: 100vh;
+    border-radius: 0px 42px 42px 0px;
+    padding: 46px;
+}

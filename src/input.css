@@ -10,7 +10,7 @@ input:focus{
 }
 
 .background{
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .95);
     border: 4px solid #5445C8;
     border-radius: 56px;
 }
@@ -31,4 +31,15 @@ input:focus{
 
 .teste{
     display: none;
+}
+
+.aparecer{
+    display: block;
+}
+
+.posicaoinicial{
+    transform: translateY(-100%);
+}
+.posicaofinal{
+    transform: translateY(0%);
 }
