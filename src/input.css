@@ -10,21 +10,25 @@ input:focus{
 }
 
 .background{
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .9);
     border: 4px solid #5445C8;
     border-radius: 56px;
 }
 
 .foto__info{
     position: absolute;
-    bottom: -10;
+    /* bottom: -10; */
     background-color: #0009;
-    transform: translateY(100%);
+    /* transform: translateX(-100%); */
     transition: 1s;
 
 }
 
-.foto:hover > .foto__info{
-    transform: translateY(0%);
+/* .foto:hover > .foto__info{
+    transform: translateX(5%);
 
+} */
+
+.teste{
+    display: none;
 }
