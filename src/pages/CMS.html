@@ -8,23 +8,37 @@
     <link rel="icon" href="../img/cmsIcon.png">
     <title>CMS</title>
 </head>
-<body class="flex w-full h-full justify-center items-center">
+<body class="p-7 flex flex-col gap-7">
 
+    <header class="flex justify-between">
+        <h1 class="font-semibold text-2xl">Filmes cadastrados no sistema:</h1>
+        <button class="hover:scale-95 w-7 h-7 text-white rounded-xl bg-gradient-to-r from-blue-600 via-indigo-800 to-indigo-900">+</button>
+    </header>
 
+   <main class="flex flex-col gap-3">
 
+        <section class="flex gap-3 text-white text-center px-3">
+            <p class="w-32 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-800 to-indigo-900">Titulo</p>
+            <p class="w-96 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-800 to-indigo-900">Sinopse</p>
+            <p class="w-24 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-800 to-indigo-900">Valor</p>
+            <p class="w-48 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-800 to-indigo-900">Data de lançamento</p>
+            <p class="w-48 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-800 to-indigo-900">Data de relançamento</p>
+            <p class="w-24 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-800 to-indigo-900">Imagem</p>
+        </section>
 
-    
-
-    <section class="flex justify-center items-center gap-12">
-
-        <img src="../img/lindamulher.png" alt="">
-
-        <div class="flex flex-col items-center">
-            <h1>OIOIIOI</h1>
-            <p>PARAGRAFOOOOO FODA TOP INCRIVEÇ</p>
-        </div>
-
-    </section>
+        <section class="flex gap-3.5 bg-slate-300 rounded-xl text-white px-4">
+            <p class="w-32 border-r-2">Duas amigas e um jeans viajante</p>
+            <p class="w-96 border-r-2">John (Brad Pitt) e Jane Smith (Angelina Jolie) trabalham como assassinos de aluguel. Eles são também casados, mas um não sabe do trabalho do outro e vivem atualmente uma vida entediada. A situação entre eles muda de rumo quando cada um recebe um novo trabalho de sua respectiva agência, que faz com que eles se encontrem para realizar a mesma missão.',</p>
+            <p class="w-24 border-r-2">R$ 20,00</p>
+            <p class="w-48 border-r-2">12/02/2005</p>
+            <p class="w-48 border-r-2">12/02/2005</p>
+            <p class="w-24 border-r-2">lijn</p>
+            <div class="flex bg-orange-50 h-16 flex-col justify-around items-center">
+                <img src="../img/lixoIcon.png" width="25px" alt="">
+                <img src="../img/editIcon.png" width="30px" alt="">
+            </div>
+        </section>
+   </main>
     
 </body>
 </html>
